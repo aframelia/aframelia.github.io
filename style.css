@@ -1,0 +1,65 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family:'Montserrat', sans-serif;
+}
+.navbar{
+    padding: 20px;
+}
+.nav-link{
+    color: black;
+    margin-right: 50px;
+}
+.btn-success{
+    background-color: white;
+}
+#Me{
+    height: 100%;
+}
+.presentation{
+    text-align: center;
+    margin-top: 150px;
+}
+.presentation h1{
+    font-size: 70px;
+}
+.picture{
+    background-color: burlywood;
+    margin-top: 100px;
+    height: 300px;
+}
+#portfolio{
+    height: 100%;
+    padding: 50px;
+}
+#contact{
+    height: 50%;
+    padding: 50px;
+}
+.email{
+    margin-left: 50px;
+}
+.footer{
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    /* height: 3 */
+}
+.main1{
+/* background-color: #BEFFFC; */
+padding: 50px;
+}
+.bg-1{
+    /* background-color: #BEFFFC; */
+    background-color: #E1F5F4;
+    margin-bottom: 30px;
+}
+.margin{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* .main1text{
+    padding: 50px;
+} */
