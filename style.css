@@ -26,7 +26,8 @@ body{
 
 #Me{
     height: 60%;
-    margin-left:30px;
+    /* margin-left:30px; */
+    text-align: center;
 }
 hr.style-five {
     border: 0;
@@ -37,6 +38,7 @@ hr.style-five {
 hr.style-five:after {  /* Not really supposed to work, but does */
     content: "\00a0";  /* Prevent margin collapse */
 }
+
 .presentation{
     text-align: center;
     margin-top: 150px;
@@ -53,8 +55,10 @@ hr.style-five:after {  /* Not really supposed to work, but does */
     height: 300px;
 } */
 #About{
-    height: 70%;
+    height: 60%;
     margin-top: 90px;
+    /* background-color: rgba(255, 225, 0, 0.041);; */
+
 }
 #About p{
     margin: 70px;
@@ -69,14 +73,7 @@ u{
     text-decoration: none;
     border-bottom: 1px solid #FC0;
 }
-/* h3 .barr{
-position: absolute;
-bottom: 0;
-left: 15%;
-width: 70%;
-height: 1px;
-border-bottom: 1px solid #FC0;
-} */
+
 .hovereffect {
     width:100%;
     height:100%;
@@ -174,37 +171,45 @@ border-bottom: 1px solid #FC0;
     -webkit-transition-delay:.2s;
     transition-delay:.2s;
     }
-    #hobbies{
+#Hobbies{
         height: 50%;
+        margin-top: 50px;
         text-align: center;
+        /* background-color: rgba(255, 225, 0, 0.041);; */
     }
 #contact{
     height: 50%;
+    margin-top: 50px;
     text-align: center;
     /* padding: 50px; */
 }
 
 .btn-linkedin {
     background: #0177b5;
-    color: #ffffff
+    color: #ffffff;
+    margin: 3px;
 }
 .btn-dribbble {
     background: #ea4c89;
-    color: #ffffff
+    color: #ffffff;
+    margin: 3px;
 }
 .btn-instagram {
     background: #dc4a38;
-    color: #ffffff
+    color: #ffffff;
+    margin: 3px;
 }
 .btn-github{
     background: #444444;
-    color: #ffffff
+    color: #ffffff;
+    margin: 3px;
 }
 
 .footer{
     background-color: #000000;
     text-align: center;
     color: white;
+
     /* height: 3 */
 }
 .main1{
@@ -221,9 +226,12 @@ padding: 50px;
     margin-left: auto;
     margin-right: auto;
 }
+.case1{
+    margin-top: 50px;
+}
 @media (max-width: 576px){
     #Me{
-        height: 80%;
+        height: 60%;
         padding: 50px;
     }
     .presentation{
@@ -237,6 +245,19 @@ padding: 50px;
         background-color: burlywood;
         margin-top: 80px;
         height: 150px;
+    }
+    .hovereffect h2{
+        font-size: 12px;
+        padding:5px;
+        margin-top: 10px;
+    }
+    .hovereffect p{
+        font-size: 8px;
+    }
+    .hovereffect a.info {
+        margin:3px 0 0;
+        padding:1px 3px;
+        font-size: 10px;
     }
     #portfolio{
         height: 50%;
