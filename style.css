@@ -204,7 +204,7 @@ u{
     height: 50%;
     margin-top: 50px;
     text-align: center;
-     padding: 80px;
+     /*padding: 80px;*/
 }
 
 .btn-linkedin {
@@ -232,7 +232,6 @@ u{
     background-color: #000000;
     text-align: center;
     color: white;
-
     /* height: 3 */
 }
 /*.main1{
