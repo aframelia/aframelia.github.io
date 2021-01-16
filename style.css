@@ -6,8 +6,8 @@ body{
 }
 .navbar{
     padding: 20px;
-    margin-bottom: -30px;
-    /* background-color: rgb(255, 243, 228); */
+    /*margin-bottom: -30px;*/
+     background-color: #ffff;
 }
 .navbar-brand{
     margin-left: 50px;
@@ -42,37 +42,65 @@ hr.style-five:after {  /* Not really supposed to work, but does */
 .presentation{
     text-align: center;
     margin-top: 150px;
+    margin-left: 150px;
 }
 .presentation h1{
     font-size: 70px;
+    margin-top: 80px;
+
 }
 .presentation p {
     margin-top: 30px;
 }
-/* .picture{
-    background-color: rgb(222, 184, 135);
-    margin-top: 100px;
-    height: 300px;
-} */
-#About{
+.presentation img{
+  /*height: 350px;*/
+  /*width: 350px;*/
+  margin-left: 80px;
+}
+ /*.picture{
+    height: 400px;
+    width: 100px;
+    margin-left: -40px;
+}*/
+/*#About{
     height: 60%;
     margin-top: 90px;
+    text-align: center;
     /* background-color: rgba(255, 225, 0, 0.041);; */
 
-}
+}*/
 #About p{
     margin: 70px;
 }
-#portfolio{
-    height: 100%;
-    margin-top: 50px;
-    text-align: center;
-    /* padding: 50px; */
+.arrow{
+  height: 80px;
+  /*float: right;*/
+  margin-left: 50%;
 }
+.carousel-item{
+    width: 100%; /*width you want*/
+    height: 100%; /*height you want*/
+    overflow: hidden;
+    /*box-shadow: 0 0 10px 1px #FC0;*/
+}
+
+/*#portfolio{
+    height: 100%;
+    margin-top: 80px;
+    text-align: center;
+}*/
 u{
     text-decoration: none;
     border-bottom: 1px solid #FC0;
 }
+#portfolio h3{
+  margin-top: 50px;
+}
+/*.hovereffect img{
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+}*/
 
 .hovereffect {
     width:100%;
@@ -118,15 +146,11 @@ u{
     -webkit-transition:all .2s ease-in-out;
     transition:all .2s ease-in-out;
     padding:10px;
-    margin-top: 80px;
+    margin-top: 40px;
     }
     .hovereffect p{
         color: rgb(216, 216, 216);
     }
-
-    /* .hovereffect .info{
-        margin-top: px;
-    } */
 
     .hovereffect a.info {
     text-decoration:none;
@@ -171,17 +195,16 @@ u{
     -webkit-transition-delay:.2s;
     transition-delay:.2s;
     }
-#Hobbies{
-        height: 50%;
-        margin-top: 50px;
-        text-align: center;
-        /* background-color: rgba(255, 225, 0, 0.041);; */
-    }
+
+.box{
+  padding: 10px;
+}
+
 #contact{
     height: 50%;
     margin-top: 50px;
     text-align: center;
-    /* padding: 50px; */
+     padding: 80px;
 }
 
 .btn-linkedin {
@@ -212,57 +235,65 @@ u{
 
     /* height: 3 */
 }
-.main1{
-/* background-color: #BEFFFC; */
+/*.main1{
+/* background-color: #BEFFFC;
 padding: 50px;
-}
-.bg-1{
-    /* background-color: #BEFFFC; */
-    background-color: #E1F5F4;
-    margin-bottom: 30px;
-}
-.margin{
+}*/
+/*.margin{
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+}*/
 .case1{
     margin-top: 50px;
 }
+#mosque{
+  margin-top: 50px;
+}
+
+.description{
+  margin-left: 20px;
+}
+.descrition-movie{
+  padding: 30px;
+}
+.trailer{
+  margin-left: 50%;
+}
+.case2{
+  margin-left: 30px;
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+/*.my-image{
+  height: 500px;
+  width: auto;
+  margin-left: 50px;
+}
+.main-desciption{
+  margin-top: 100px;
+}*/
 @media (max-width: 576px){
-    #Me{
-        height: 60%;
-        padding: 50px;
-    }
-    .presentation{
-        text-align: center;
-        margin-top: 70px;
-    }
-    .presentation h1{
-        font-size: 50px;
-    }
-    .picture{
-        background-color: burlywood;
-        margin-top: 80px;
-        height: 150px;
-    }
-    .hovereffect h2{
-        font-size: 12px;
-        padding:5px;
-        margin-top: 10px;
-    }
-    .hovereffect p{
-        font-size: 8px;
-    }
-    .hovereffect a.info {
-        margin:3px 0 0;
-        padding:1px 3px;
-        font-size: 10px;
-    }
-    #portfolio{
-        height: 50%;
-    }
-    #contact{
-        height: 50%;
-    }
+
+  .picture{
+    display: none;
+  }
+  /*#About p{
+      margin: 50px;
+  }*/
+  /*.drawings{
+    display: none;
+  }*/
+  /*.box{
+    padding: 10px;
+  }
+  .email{
+    margin-top: 50px;
+  }*/
+  /*.social{
+    margin: 20px;
+  }*/
 }
