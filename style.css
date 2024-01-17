@@ -1,0 +1,176 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family:'Montserrat', sans-serif;
+
+}
+.navbar{
+    padding: 20px;
+    /*margin-bottom: -30px;*/
+     background-color: #ffff;
+     margin-bottom: 50px;
+}
+.navbar-brand{
+    margin-left: 50px;
+}
+.nav-link{
+    color: black;
+    margin-right: 50px;
+}
+.btn-success{
+    background-color: white;
+}
+
+.container{
+  margin-top: 100px;
+}
+#Me{
+    height: 60%;
+    /* margin-left:30px; */
+    /*text-align: center;*/
+}
+.presentation{
+    /*text-align: center;*/
+    margin-top: 150px;
+    margin-left: 180px;
+}
+.presentation h2{
+    font-size: 40px;
+    /*margin-top: 80px;*/
+
+}
+.presentation p {
+    margin-top: 30px;
+}
+.presentation img{
+  height: 350px;
+  width: 190%;
+  /*margin-left: 80px;*/
+}
+
+#portfolio h3{
+  margin-top: 50px;
+}
+.squidgies img{
+  height: 100%;
+  width: 100%;
+}
+
+.work h1{
+  font-size: 24px;
+}
+.work p{
+  font-size: 20px;
+}
+.infoS{
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.btn{
+  background-color: black;
+  color: #ffff;
+}
+.infoB{
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.infoS{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.infoT{
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.flight img{
+  height: 80%;
+  width: 100%;
+}
+
+.question{
+  width: 80%;
+  height: 80%;
+}
+
+.wireframs{
+  width: 100%;
+  height: 100%;
+}
+
+.design{
+  width: 100%;
+}
+
+.cupcake{
+  height: 80%;
+}
+
+.btn-linkedin {
+    background: #0177b5;
+    color: #ffffff;
+    margin: 3px;
+}
+.btn-dribbble {
+    background: #ea4c89;
+    color: #ffffff;
+    margin: 3px;
+}
+.btn-instagram {
+    background: #dc4a38;
+    color: #ffffff;
+    margin: 3px;
+}
+.btn-github{
+    background: #444444;
+    color: #ffffff;
+    margin: 3px;
+}
+
+.footer{
+    padding: 30px;
+    margin-top: 50px;
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    /* height: 3 */
+}
+
+@media (max-width: 576px){
+
+  .picture{
+    display: none;
+  }
+  .navbar-brand{
+    margin-left: 10px;
+  }
+  #Me{
+    margin-left: 20px;
+  }
+  #navbarTogglerDemo02{
+    margin-left: 30px;
+  }
+
+  .infoT{
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .infoS{
+    order: 1;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .infoB{
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .next{
+    margin-top: 30px;
+  }
+.question{
+  display: none;
+}
+.video{
+  width: 100%;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Flight Search App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light">
+      <a class="navbar-brand" href="index.html">Afra Melia</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AfraResume.pdf" target="_blank" >CV</a>
+          </li>
+          <li class="nav-item">
+            <a href="mailto:afra.melia90@gmail.com" class="btn btn-primary active" role="button" aria-pressed="true">Get in touch</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <br>
+    <div class="container">
+      <h1 class="case1"><strong>Flight Search Case Study</strong></h1>
+      <hr>
+      <div class="case2">
+        <div class="row ">
+          <div class="col-xs-12 col-sm-12 col-md-6 ">
+              <h3> Overview: </h3>
+              <p>This article investigates ways in which it can improve booking interfaces. In this project we choose to focus on flight booking interfaces.
+              </p><br>
+              <h3>The Problem: </h3>
+              <p>Imagine a situation in which you are looking to take a brief holiday or planning to visit family abroad and want to book a flight. You want the flight to be cheap and you’re quite flexible with dates. You go to look for tickets on the relevant website (e.g. Skyscanner or Ryanair) and start looking for a flight. For the days you specify the website retrieves tickets that are way beyond your budget, so you go back to enter new dates and continue this process indefinitely until you find your ticket.
+                This process is clearly tedious and frustrating! What we propose below is an attempt to remedy some of these issues.</p>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6">
+            <img src="img/portada.png" class="img-fluid center-block" width="300" alt="">
+          </div>
+        </div>
+          <h3>The solution</h3>
+          <p>The solution is simple. We propose allowing the user to specify a range of dates and a minimum and maximum budget and then retrieving a sorted list of tickets within the date range. We also allow the user to view these tickets via a calendar grid. In summary, this enables the user to view all the prices without having to search day by day.</p><br>
+          <h3>Interviews</h3>
+          <p>The first step was interviewing some regular flight search users. Here, I interviewed three people aged between 20-30. Few things that they had in common were the love of travel and having family abroad they liked to visit regularly. They normally look for cheap flights and better still if they secure direct flights with a well-known airline carrier. Something else that I have noticed is that they look for flights months in advance to get cheaper flights, especially if they intend to travel during the holiday seasons.
+          </p><br>
+          <p>So I picked some important goals for the user and sorted them from most important to least important.</p>
+          <ol>
+            <li>Searching for the cheapest flight.</li>
+            <li>Looking for best dates to fly.</li>
+            <li>Being able to set a budget in the search engines.</li>
+            <li>Not to have to do the calculations (having a clear results of the total flight cost and date).</li>
+            <li>To get just the known and trusted companies.</li>
+            <li>No changing on cost when selected the flight.</li>
+            <li>To do the booking easy and quick.</li>
+          </ol><br>
+          <!-- <h3>Personas</h3>
+          <p>After the interviews, I could create a user persona..</p><br>
+          <img src="img/Robiepersona.png" class="img-fluid center-block" width="300px" alt=""><br> -->
+          <h3>Wireframes</h3>
+          <p>The first step I took to create the app was to draw some wireframes. Once I was happy with the wireframes, I asked for feedback before starting with the prototype. This way it means I can fix the wireframe and not to wait until the prototype in case of an error.
+            The final wireframe:</p>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <img src="img/search.jpeg" class="img-fluid center-block" height="500px" width="300px" alt="">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <img src="img/calendar.jpg" class="img-fluid center-block" height="500px" width="300px" alt="">
+            </div>
+          </div><br>
+          <h3>Prototype</h3>
+          <p>Once the wireframes were done, I started with the prototype of the final product that will look like these.</p>
+          <p>On the image we can see that once you input all the data, like the early day you will travel and the latest day you want to come back and the days you are going to be away, the app looks for the cheapest flight and it shows the days on the calendar. If you scroll down, you can see the other options and if you click on them it shows the days on the calendar. You just have to choose the one that suits you best.</p><br>
+          <video class="video" controls autoplay>
+              <source src="img/mock.mp4" type="video/mp4">
+          </video>
+      </div>
+    </div>
+    <div class="next" align="right" style="margin-right:50px">
+      <a href="mosque.html" class="btn" role="button" aria-pressed="true">Other Work<img src="img/next.svg"></a>
+    </div>
+    <div class="footer">Made by Afra Melia </div>
+  </body>
+</html>
